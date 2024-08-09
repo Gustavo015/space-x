@@ -6,7 +6,7 @@
 .header {
   font-size: 14px;
   font-weight: bold;
-  text-shadow: black 0.1em 0.1em 0.1em;
+  text-shadow: 1.5px 1.5px black;
 }
 .header #navItem:hover {
   color: #b9b9b9;
@@ -20,6 +20,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  text-shadow: 1px 1px black;
 }
 
 .arrowDown {
@@ -244,9 +245,9 @@
     padding-top: 35%;
   }
 }
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .numbers {
-    height: 60vh;
+    height: auto;
   }
   #overViewPosition {
     width: auto;
@@ -259,7 +260,7 @@
   }
   .falcon9Desc {
     font-size: 18px;
-    line-height: auto;
+    line-height: 35px;
   }
   .subtitleFalcon {
     font-size: 16px;

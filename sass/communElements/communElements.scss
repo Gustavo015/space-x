@@ -1,7 +1,7 @@
 .header {
   font-size: 14px;
   font-weight: bold;
-  text-shadow: black 0.1em 0.1em 0.1em;
+  text-shadow: 1.5px 1.5px black;
 
   #navItem {
     &:hover {
@@ -19,6 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  text-shadow: 1px 1px black;
 }
 
 .arrowDown {
